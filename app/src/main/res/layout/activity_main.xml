@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Írj ide valamit"
+        android:layout_centerInParent="true"
+        android:id="@+id/beiros"
+        />
+    <Button
+        android:id="@+id/elsogomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beiros"
+        android:layout_centerInParent="true"
+        android:text="Nagy betűs szöveg"/>
+    <Button
+        android:id="@+id/masodikgomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/elsogomb"
+        android:layout_centerInParent="true"
+        android:text="Kis betűs szöveg"/>
+    <Button
+        android:id="@+id/harmdikgomb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/masodikgomb"
+        android:layout_centerInParent="true"
+        android:text="Véletlen szín generálása"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/megnezos"
+        android:layout_below="@id/harmdikgomb"
+        android:layout_centerInParent="true"
+        android:text="itt lesz a szöveg"
+
+        />
+
+</RelativeLayout>
