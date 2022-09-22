@@ -2,6 +2,7 @@ package com.example.gyakorlo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -41,7 +42,22 @@ public class MainActivity extends AppCompatActivity {
                 megnezos.setText(beiros.getText().toString().toLowerCase(Locale.ROOT));
             }
         });
+        harmadikgomb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                int r =(int)(Math.random()*256);
+                int g =(int)(Math.random()*256);
+                int b =(int)(Math.random()*256);
+                megnezos.setBackgroundColor(Color.rgb(r,g,b));
+
+
+
+
+
+
+            }
+        });
 
 
     }

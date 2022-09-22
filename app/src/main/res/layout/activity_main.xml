@@ -9,11 +9,12 @@
 
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Írj ide valamit"
         android:layout_centerInParent="true"
         android:id="@+id/beiros"
+        android:textAlignment="center"
         />
     <Button
         android:id="@+id/elsogomb"
@@ -38,12 +39,14 @@
         android:text="Véletlen szín generálása"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/megnezos"
         android:layout_below="@id/harmdikgomb"
         android:layout_centerInParent="true"
         android:text="itt lesz a szöveg"
+        android:textAlignment="center"
+        android:textSize="25sp"
 
         />
 
